@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: beige;
+    font-family: "Roboto";
+}
+.container{
+    width: 460px;
+    height: 400px;
+    margin: 100px auto;
+    background:linear-gradient(180deg ,beige,cadetblue);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input{
+    width:100%;
+    margin-bottom: 20px;
+    padding: 17px 10px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    background-color: beige;
+    color:rgb(79, 134, 136);
+}
+.username{
+    background: linear-gradient(180deg,#cedfcd,#e1e9d4);
+
+}
+.password{
+    background: linear-gradient(180deg,#aeccc0,#c3d8c8);
+}
+.submit{
+    background: linear-gradient(180deg,#89b6b1,#a8c9bd);
+    font-weight: bold;
+}
+p{
+    margin: 10px 10px;
+    color:rgb(76, 130, 134);
+    font-size: 20px;
+}
+p a{
+    text-decoration: none;
+    color:  rgb(52, 90, 92);
+}
+::placeholder{
+    color:  rgba(245, 245, 220, 0.719);
+    font-weight: bold;
+}
